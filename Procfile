@@ -1,0 +1,1 @@
+web: gunicorn lifestyle_optician.wsgi
