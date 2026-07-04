@@ -1,0 +1,244 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- HERO -->
+<section class="service-hero text-center">
+
+    <div class="container">
+
+        <h1 class="fw-bold">Our Eye Care Services</h1>
+
+        <p class="lead mt-3">
+            Complete professional eye care solutions for all ages —
+            from eye tests to prescription glasses and contact lenses.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- MAIN SERVICES -->
+<section class="section bg-white">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- Eye Examination -->
+            <div class="col-md-4">
+                <div class="card service-card">
+
+                    <img src="{% static 'images/glass4.jpg' %}" class="service-img">
+
+                    <div class="p-4">
+
+                        <h4>👁 Eye Examination</h4>
+
+                        <p>
+                            Comprehensive eye testing using modern diagnostic equipment
+                            to detect vision problems early and accurately.
+                        </p>
+
+                        <ul>
+                            <li>Vision screening</li>
+                            <li>Eye pressure test</li>
+                            <li>Retina check</li>
+                        </ul>
+
+                        <a href="/appointment/" class="learn-btn">
+                            Book Test →
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Prescription Glasses -->
+            <div class="col-md-4">
+                <div class="card service-card">
+
+                    <img src="{% static 'images/glass1.jpg' %}" class="service-img">
+
+                    <div class="p-4">
+
+                        <h4>👓 Prescription Glasses</h4>
+
+                        <p>
+                            Custom-made prescription glasses designed for clarity,
+                            comfort, and style.
+                        </p>
+
+                        <ul>
+                            <li>Single vision lenses</li>
+                            <li>Bifocal lenses</li>
+                            <li>Progressive lenses</li>
+                        </ul>
+
+                        <a href="/products/" class="learn-btn">
+                            View Frames →
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Contact Lenses -->
+            <div class="col-md-4">
+                <div class="card service-card">
+
+                    <img src="{% static 'images/glass6.jpg' %}" class="service-img">
+
+                    <div class="p-4">
+
+                        <h4>👁 Contact Lenses</h4>
+
+                        <p>
+                            Safe and comfortable contact lenses for daily or monthly use
+                            with professional fitting guidance.
+                        </p>
+
+                        <ul>
+                            <li>Daily lenses</li>
+                            <li>Monthly lenses</li>
+                            <li>Colored lenses</li>
+                        </ul>
+
+                        <a href="/appointment/" class="learn-btn">
+                            Get Fitted →
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ADDITIONAL SERVICES -->
+<section class="section">
+
+    <div class="container text-center">
+
+        <h2 class="mb-5">Additional Eye Care Services</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card service-card">
+
+                    <img src="{% static 'images/glass.jpg' %}" class="service-img">
+
+                    <div class="p-3">
+                        <h5>🧒 Pediatric Eye Care</h5>
+                        <p>Eye care for children and school vision checks.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card service-card">
+
+                    <img src="{% static 'images/sunglass1.jpg' %}" class="service-img">
+
+                    <div class="p-3">
+                        <h5>🕶 Sunglasses Fitting</h5>
+                        <p>UV protection and fashion eyewear solutions.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card service-card">
+
+                    <img src="{% static 'images/glass6.jpg' %}" class="service-img">
+
+                    <div class="p-3">
+                        <h5>🔧 Frame Repair</h5>
+                        <p>Repair and adjustment of broken or loose frames.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card service-card">
+
+                    <img src="{% static 'images/glass2.jpg' %}" class="service-img">
+
+                    <div class="p-3">
+                        <h5>📋 Prescription Renewal</h5>
+                        <p>Update your old prescription with new eye tests.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section bg-white">
+
+    <div class="container text-center">
+
+        <h2 class="mb-5">How It Works</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <h2>1</h2>
+                <h5>Book Appointment</h5>
+                <p>Schedule your eye test online or visit us.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h2>2</h2>
+                <h5>Eye Examination</h5>
+                <p>Our specialists test your vision professionally.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h2>3</h2>
+                <h5>Get Prescription</h5>
+                <p>Receive glasses or contact lens prescription.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+<section class="section text-center">
+
+    <div class="container">
+
+        <h2>Need Professional Eye Care?</h2>
+
+        <p class="mb-4">
+            Book an appointment today and get expert vision care.
+        </p>
+
+        <a href="/appointment/" class="btn btn-primary btn-lg">
+            Book Appointment Now
+        </a>
+
+    </div>
+
+</section>
+
+{% endblock %}
